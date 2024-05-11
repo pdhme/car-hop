@@ -1,0 +1,259 @@
+
+@font-face {
+	font-family: "PlayfairDisplay-Regular";
+	font-weight: normal;
+	font-style: normal;
+	src: url("/car-hop/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	font-weight: bold;
+	font-style: italic;
+	src: url("/car-hop/fonts/PlayfairDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	font-weight: black;
+	font-style: italic;
+	src: url("/car-hop/fonts/PlayfairDisplay-BlackItalic.ttf");
+}
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	font-weight: black;
+	src: url("/car-hop/fonts/PlayfairDisplay-Black.ttf");
+}
+
+@font-face {
+	font-family: "Aeronaves";
+	font-weight: normal;
+	src: url("/car-hop/fonts/Aeronaves.ttf");
+}
+
+
+:root {
+	--brand: #c53f67;
+	--text: #fad538;
+	--sub-text: #ffffff;
+	--background: white;
+}
+
+body {
+	all: unset;
+	margin: 0;
+	background-color: var(--background);
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+
+
+#bar {
+	position: fixed;
+	display: inline-flex;
+	gap: .5vw;
+	top: 0;
+	width: 100vw;
+	height: 8vh;
+	z-index: 1000;
+	background-color: var(--brand);
+}
+#logo {
+	width: 15vw;
+	margin: 0;
+}
+.bar-button {
+	all: unset;
+	line-height: 8vh;
+	text-align: center;	
+	width: auto;
+	padding: 0 3vw;
+	font-size: 3.5vh;
+	color: #fad538;
+	cursor: pointer;
+	transition: 0.1s;
+}
+.bar-button:hover {
+	border-bottom: 2px solid white;
+	transition: 0.1s;
+}
+#log-in {
+	all: unset;
+
+	position: relative;
+	top: 25%;
+	height: 50%;
+	width: 5vw;
+	margin-left: auto;
+	right: 1vw;
+	float: right;
+
+	font-size: 2vh;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #fad538;
+}
+
+
+
+#title {
+	width: 100vw;
+	height: 75vh;
+	background-image: linear-gradient(rgba(255,255,255,0) 97%, white 100%), url("/car-hop/img/hbg.jpg");
+	background-repeat: no-repeat;
+	background-position: 60% 70%;
+	background-size: cover;
+}
+
+#title-text {
+	position: relative;
+	left: 60vw;
+	top: 25vh;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	font-family: "Aeronaves";
+	color: #eaea00;
+	color: white;
+	font-size: 8vh;
+	filter: blur(2px);
+}
+
+
+
+
+
+.section {
+	width: 100vw;
+	min-height: 50vh;
+	margin: 5vh 0;
+	display: flex;
+	align-items: center;
+}
+.y {
+	background: #fceb8033;
+	background: linear-gradient(white 0%, #fceb8033 20%, white 80%);
+}
+
+
+
+
+.group {
+	position: relative;
+	display: inline-flex;
+	flex-direction: row;
+	gap: 5vw;
+	padding: 0 1em;
+}
+.left {
+	justify-content: flex-start;
+}
+.left .group {
+	left: 3vw;
+}
+.right {
+	justify-content: flex-end;
+}
+.right .group {
+	right: 3vw;
+}
+.group img {
+	height: 40vh;
+	margin: 1vw;
+	aspect-ratio: 1;
+	border-radius: 10%;
+	object-fit: cover;
+	pointer-events: none;
+}
+
+
+
+.heading {
+	max-width: 37vw;
+	color: #333366;
+	font-family: "PlayfairDisplay";
+	font-weight: black;
+}
+.text {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 8;
+	-webkit-box-orient: vertical;
+
+	max-width: 25vw;
+	font-size: 2.5vh;
+	font-family: "PlayfairDisplay-Regular";
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+#desc {
+	display: inline-flex;
+	gap: 5vw;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+
+	padding: 2vh 2vw;
+	border-radius: 10px;
+	background: #dfdfdf;
+}
+#desc .text {
+	-webkit-line-clamp: 10;
+}
+#desc img {
+	height: 35vw;
+	border-radius: 10px;
+	object-fit: cover;
+}
+.section.sep {
+	padding: 5vh 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+#footer {
+	background-color: var(--brand);
+}
+#footer-content {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 5vh 0;
+
+	display: inline-flex;
+	gap: 7vw;
+}
+#footer-content p, #footer-content a , #footer-content span {
+	color: var(--sub-text);
+}
+#about {
+	max-width: 20vw;
+}
+#browse, #cta, #ci{
+	display: inline-flex;
+	flex-direction: column;
+	gap: .5vh;
+}
+#browse h3, #cta h3, #ci h3 {
+	color: var(--text);
+	margin-bottom: .5vh;
+}
+#ci img {
+	width: 1vw;
+	filter: invert(100%);
+}

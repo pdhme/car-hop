@@ -1,0 +1,2923 @@
+127.0.0.1 - - [07/May/2024 17:54:10] "GET / HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+
+Keyboard interrupt received, exiting.
+127.0.0.1 - - [07/May/2024 17:54:19] "GET / HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib/python3.12/http/server.py", line 1314, in <module>
+    test(
+  File "/usr/lib/python3.12/http/server.py", line 1261, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.12/http/server.py", line 1308, in server_bind
+    return super().server_bind()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.12/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [07/May/2024 17:57:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:57:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:57:59] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:57:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 17:58:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:12] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:58:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 17:58:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:12] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:58:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 17:58:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:12] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:58:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 17:58:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:13] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:58:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 17:58:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:13] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:58:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 17:58:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:58:13] code 404, message File not found
+127.0.0.1 - - [07/May/2024 17:58:13] "GET /favicon.ico HTTP/1.1" 404 -
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+
+Keyboard interrupt received, exiting.
+127.0.0.1 - - [07/May/2024 17:58:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 17:59:06] "GET /car-hop HTTP/1.1" 301 -
+127.0.0.1 - - [07/May/2024 17:59:06] "GET /car-hop/ HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:41] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:03:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 18:03:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:41] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:03:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 18:03:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:42] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:03:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 18:03:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:42] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:03:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 18:03:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:03:42] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:03:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 18:04:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:04:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:04:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:04:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:04:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:04:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:04:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:07:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:07:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:08:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:08:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:09:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:10:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:10:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:10:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:17:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:17:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:19:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:19:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 18:33:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:20] "GET /car-hop/Cigalir-by-lirkiv.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:20] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:33:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 18:33:41] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50338)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 18:33:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:53] "GET /car-hop/Cigalir-by-lirkiv.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 18:33:53] code 404, message File not found
+127.0.0.1 - - [07/May/2024 18:33:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:10:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:10:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:10:59] "GET /car-hop/fonts/Cigalir-by-lirkiv.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:13:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:41] "GET /car-hop/fonts/Cigalir-by-lirkiv.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:41] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:14:41] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:14:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:18:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:18:12] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:18:12] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:18:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:13] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:18:13] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:18:13] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:18:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:18:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:18:14] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:18:14] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:18:14] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:18:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:18:25] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:18:25] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:20:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:20:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:20:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:20:04] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:20:04] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:20:04] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:20:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:20:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:20:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:20:15] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:20:15] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:20:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:20:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:20:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:20:28] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:20:28] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:20:28] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:20:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:21:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:21:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:21:52] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:21:52] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:21:52] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:21:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:22:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:22:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:22:42] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:22:42] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:22:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:22:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:22:46] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:22:46] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:22:46] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:22:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:22:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:22:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:22:58] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:22:58] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:23:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:23:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:23:06] code 404, message File not found
+127.0.0.1 - - [07/May/2024 20:23:06] "GET /car-hop/fonts/PlayfairDisplay.BlackItalic.ttf HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 20:23:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:23:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:23:42] "GET /car-hop/fonts/PlayfairDisplay-BlackItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:24:46] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:24:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 20:25:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 20:25:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:11:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:11:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:11:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:11:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:12:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:12:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:49] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:12:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:12:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:16:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:16:22] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:17:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:17:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:18:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:18:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:19:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:19:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:20:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:20:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:21:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:21:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:21:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:21:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:23:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:23:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:24:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:24:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:26:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:26:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:53] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:53] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:54] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:26:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:26:55] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:26:55] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:26:55] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:26:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:27:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:27:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:27:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:50] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:27:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:28:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:28:08] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:28:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:28:21] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:34:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:34:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:34:15] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:15] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:17] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:17] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:17] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:17] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:23] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:23] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:34:23] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:23] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:24] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:24] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:24] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:24] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:24] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:24] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:34:27] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:27] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:28] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:28] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:28] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:34:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:28] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:34:28] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:34:28] "GET /car-hop/images/car-on-sunny-road.png HTTP/1.1" 404 -
+127.0.0.1 - - [07/May/2024 21:35:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:35:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:35:07] "GET /car-hop/images/car-on-sunny-road.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:37:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:37:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:37:24] "GET /car-hop/images/car-on-sunny-road.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:38:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:38:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:38:20] "GET /car-hop/images/car-on-sunny-road.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:38:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:38:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:39:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:39:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:39:14] "GET /car-hop/images/car-on-road.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:39:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:39:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:39:39] "GET /car-hop/images/clean-car-on-road.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:42:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:42:50] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:42:50] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:42:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:42:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:42:59] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:44:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:44:08] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:44:08] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:44:08] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:44:08] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 41598)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 21:44:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:44:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:44:24] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:44:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:44:47] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:44:47] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:45:00] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:45:14] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:45:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:45:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:45:36] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:47:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:47:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:47:01] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:47:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:47:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:47:40] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:48:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:48:55] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:48:55] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:49:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:49:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:49:34] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:50:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:50:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:50:48] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:51:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:51:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:51:00] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:51:00] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51412)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 21:52:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:52:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:52:28] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:52:28] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:52:28] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 35366)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 21:53:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:53:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:55:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:55:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:55:03] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:55:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:55:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:55:18] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:55:18] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 47272)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 21:55:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:55:21] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:56:23] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:56:23] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:56:23] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:56:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:56:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:58:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:58:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:58:01] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:58:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 21:58:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 21:58:51] code 404, message File not found
+127.0.0.1 - - [07/May/2024 21:58:51] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55126)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:00:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:00:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:00:54] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:01:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:01:09] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:04:10] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:04:10] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:04:10] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:04:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:04:11] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:04:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:04:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:06:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:06:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:09:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:09:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:31] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:09:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:31] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:32] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:09:32] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:32] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:10:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:10:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:10:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:11:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:11:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:11:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:11:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:11:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:11:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:11:54] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:12:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:12:53] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:13:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:13:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:13:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:13:28] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:13:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:13:29] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:14:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:14] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:14:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:44] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:15:44] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:45] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:45] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:15:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:15:45] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:15:45] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 43280)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:15:46] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:15:46] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:16:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:16:05] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:16:05] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59988)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60230)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:16:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:09] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:09] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:09] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:09] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:16:09] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:17:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:17:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:17:39] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:17:39] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 37044)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:17:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:17:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:18:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:18:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:19:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:19:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:19:35] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:22:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:22:22] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 33932)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:52:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:52:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:52:11] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:52:11] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:53:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:53:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:53:06] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:53:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:53:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:53:57] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:53:57] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:53:57] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 46122)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:54:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:54:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:54:46] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:54:46] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:54:46] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 43706)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:55:38] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:55:38] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:55:38] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:55:38] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:55:38] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 47672)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:56:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:56:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:56:03] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:56:03] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 38298)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:56:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:56:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:56:36] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:56:36] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:56:36] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60158)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:56:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:56:58] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:56:58] code 404, message File not found
+127.0.0.1 - - [07/May/2024 22:56:58] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 39826)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [07/May/2024 22:59:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:59:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [07/May/2024 22:59:30] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:59:30] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:59:41] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2024 22:59:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:03:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:03:08] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:03:08] "GET /car-hop/images/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:03:08] "GET /car-hop/images/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:03:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:03:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:03:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:03:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:04:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:04:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:04:23] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:04:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:04:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:04:51] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:04:51] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:04:51] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:04:51] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:04:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:05:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:05:37] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:23] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:06:23] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:58] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:58] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:58] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:58] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:58] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:06:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:06:59] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:06:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:00] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:07:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:07:01] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:07:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:27:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:27:55] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:27:55] "GET /car-hop/images/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:27:55] "GET /car-hop/images/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:27:55] "GET /car-hop/fonts/PlayfairDisplay-BoldItalic.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:27:55] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:27:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:27:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:29:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:29:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:29:35] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:29:35] "GET /car-hop/images/location.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:29:35] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:29:35] "GET /car-hop/images/hbg.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:29:35] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:29:35] code 404, message File not found
+127.0.0.1 - - [08/May/2024 15:29:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 15:30:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:30:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:30:01] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:30:01] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:30:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:30:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:31:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:31:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:33:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:33:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:45:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:45:13] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:47:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:47:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:49:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:49:14] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:49:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:49:41] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:50:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:50:01] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:50:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:50:45] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:51:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:51:14] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:52:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:52:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:53:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:53:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:53:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:53:26] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:53:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:53:56] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:54:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:54:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:54:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:54:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:54:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:54:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:54:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:54:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:54:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:54:55] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:55:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:55:21] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:55:46] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:55:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:56:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:56:45] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:56:45] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:57:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:57:03] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:57:03] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:57:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:57:19] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:57:19] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:58:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:58:29] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:58:29] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:59:30] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:31] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:31] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:31] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:47] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 15:59:47] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 15:59:49] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:00:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:00:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:04] code 404, message File not found
+127.0.0.1 - - [08/May/2024 16:00:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 16:00:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:06] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:06] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:06] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:06] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:06] code 404, message File not found
+127.0.0.1 - - [08/May/2024 16:00:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 16:00:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:00:44] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:01:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:01:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:01:11] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:01:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:01:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:02:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:02:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:02:13] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:02:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:02:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:03:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:03:47] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:03:47] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:08:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:08:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:08:24] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:08:24] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:09:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:09:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:09:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:09:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:09:53] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:11:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:11:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:14] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:11:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:11:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:11:22] code 404, message File not found
+127.0.0.1 - - [08/May/2024 16:11:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 16:11:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:11:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:13:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:13:00] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:13:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:13:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:13:41] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:13:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:13:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:14:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:14:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:14:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:14:32] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:14:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:14:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:14:52] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:14:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:14:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:15:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:15:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:15:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:15:03] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:15:25] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:15:25] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58066)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [08/May/2024 16:15:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:15:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:17:04] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:17:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:17:05] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:17:16] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:17:16] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:17:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:17:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:17:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:17:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:17:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:17:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:21:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:21:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:21:03] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:23:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:23:49] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:23:49] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:24:13] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:24:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:24:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:24:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:25:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:25:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:25:10] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:25:10] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:26:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:26:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:26:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:26:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 16:26:13] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 16:26:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:14] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:20] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:20] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:27:24] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:33] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:33] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:27:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:27:42] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:28:02] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:28:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:28:05] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:28:05] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:29:11] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:29:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:29:40] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:29:40] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:29:41] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:29:41] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:29:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:29:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:30:06] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:30:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:30:30] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:30:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:30:30] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:31:19] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:31:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:31:48] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:31:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:32:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:32:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:33:14] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:33:14] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:34:10] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:34:10] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [08/May/2024 16:34:10] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:34:29] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [08/May/2024 16:34:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:13:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:13:37] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:13:37] "GET /car-hop/img/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:13:37] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:13:37] "GET /car-hop/img/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:13:37] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58118)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [08/May/2024 21:14:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:15:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:17:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:18:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:19:44] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:19:46] code 404, message File not found
+127.0.0.1 - - [08/May/2024 21:19:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/May/2024 21:19:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:19:54] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:21:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:21:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:25:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:25:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:25:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:25:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:26:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:26:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:27:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:27:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:27:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:27:49] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:28:04] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:28:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:28:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:28:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:28:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:28:20] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:29:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:29:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:29:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:29:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:30:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:30:32] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:31:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:31:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:33:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:33:21] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:33:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:33:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:33:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:33:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:33:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:33:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:34:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:34:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:35:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:35:37] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:36:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:36:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:36:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:36:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/May/2024 21:36:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [08/May/2024 21:36:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 11:41:26] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 11:41:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 11:41:27] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 11:41:27] "GET /car-hop/img/location.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 11:41:27] "GET /car-hop/img/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 11:47:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 11:47:55] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 11:47:55] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 11:47:55] "GET /car-hop/img/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 11:47:55] "GET /car-hop/img/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 11:47:55] code 404, message File not found
+127.0.0.1 - - [09/May/2024 11:47:55] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 42470)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [09/May/2024 11:51:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 11:52:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 11:52:21] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 11:52:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 11:52:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:07:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:07:21] "GET /car-hop/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:07:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:07:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:07:35] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53696)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [09/May/2024 12:09:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:25] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET /car-hop/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET /car-hop/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET /car-hop/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:26] "GET /car-hop/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:27] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:09:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:09:28] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:09:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:12:40] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:12:42] "GET /car-hop/logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:13:20] "GET /car-hop/logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:16:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:16:42] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:16:42] "GET /equilateral.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:16:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:16:42] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:16:42] "GET /equilateral.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:16:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:16:42] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:16:42] "GET /equilateral.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:16:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:16:43] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:16:43] "GET /equilateral.svg HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:17:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:18:46] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:18:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:18:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:18:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:19:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:22:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:10] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:17] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:23:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:23:27] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:23:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 12:24:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:24:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:18] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:20] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:24:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:37] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:24:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:24:56] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:25:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:25:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:25:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:25:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:25:19] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:25:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:25:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:25:37] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:25:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:25:50] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:25:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:25:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:26:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:26:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:26:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:26:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:27:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:27:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:27:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:27:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:27:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:27:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:30:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:30:47] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:31:13] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:31:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:31:19] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:31:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:31:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:31:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:31:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:31:40] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:32:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:32:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:33:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:33:58] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:34:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:34:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:34:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:34:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:36:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:36:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:36:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:36:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:42:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:42:55] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:50:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:50:14] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:50:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:50:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 12:50:17] code 404, message File not found
+127.0.0.1 - - [09/May/2024 12:50:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:06:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:06:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:06:18] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:06:18] "GET /car-hop/img/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:06:18] "GET /car-hop/img/hbg.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:06:18] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54782)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [09/May/2024 20:06:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:02] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:07:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:07:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:07:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:07:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:07:31] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:08:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:08:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:08:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:08:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:08:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:08:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:09:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:09:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:09:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:09:22] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:09:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:09:28] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:11:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:11:38] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:11:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:11:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:11:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:12:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:12:03] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:16:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:16:50] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:16:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:16:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:17:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:17:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:17:11] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:17:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:17:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:17:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:18:20] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:18:20] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:18:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:18:49] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:19:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:19:56] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:20:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:20:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:21:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:21:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:21:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:21:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:22:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:22:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:23:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:23:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:24:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:24:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:29:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:29:57] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:30:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:30:37] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:34:46] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:34:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:35:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:17] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:35:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:35:27] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:35:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:35:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:35:49] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:36:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:36:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:36:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:36:32] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:37:46] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:37:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:38:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:38:08] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:38:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:38:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:38:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:38:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:38:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:38:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:38:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:38:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:39:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:39:15] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:39:15] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54066)
+Exception occurred during processing of request from ('127.0.0.1', 54072)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+----------------------------------------
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [09/May/2024 20:40:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:40:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:40:43] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:40:43] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:42:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:28] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:42:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:42:29] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:42:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:43:59] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:43:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:27] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:44:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:44:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:44:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:40] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:44:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:44:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:42] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:42] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:44:43] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:44:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:45:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:45:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:02] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:45:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:03] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:45:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:45:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:45:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:36] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:45:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:45:57] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:45:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:46:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:46:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:47:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:47:12] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:47:12] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 46304)
+Exception occurred during processing of request from ('127.0.0.1', 46296)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+127.0.0.1 - - [09/May/2024 20:47:17] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:47:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:47:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:47:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:30] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:50:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:31] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:50:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:50:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:50:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:35] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:36] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:36] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:50:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:16] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:51:16] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:51:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:51:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:51] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:51:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:51:52] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:51:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:52:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:52:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:52:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:52:21] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:22] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:52:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:39] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:52:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:52:51] code 404, message File not found
+127.0.0.1 - - [09/May/2024 20:52:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 20:53:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:53:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:53:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:53:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:53:43] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:53:43] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:54:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:54:32] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:55:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:55:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:56:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:56:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:57:17] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:57:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:58:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:58:16] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 20:58:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 20:58:36] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:00:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:00:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:00:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:00:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:00:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:00:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:00:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:00:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:01:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:01:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:01:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:01:29] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:01:30] code 404, message File not found
+127.0.0.1 - - [09/May/2024 21:01:30] "GET /duckduckgo.com HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 21:01:38] code 404, message File not found
+127.0.0.1 - - [09/May/2024 21:01:38] "GET /duckduckgo.com HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 21:02:38] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:02:38] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:03:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:03:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:03:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:03:23] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:03:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:03:56] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:05:05] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:05:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:05:05] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:05:05] "GET /car-hop/img/location.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:05:05] "GET /car-hop/img/hbg.jpg HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:05:08] code 404, message File not found
+192.168.0.85 - - [09/May/2024 21:05:08] "GET /duckduckgo.com HTTP/1.1" 404 -
+192.168.0.85 - - [09/May/2024 21:05:08] code 404, message File not found
+192.168.0.85 - - [09/May/2024 21:05:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 21:27:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:27:57] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:28:32] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:28:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:28:35] code 404, message File not found
+127.0.0.1 - - [09/May/2024 21:28:35] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.85 - - [09/May/2024 21:28:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:28:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:29:00] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:29:00] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:30:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:30:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:30:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:30:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:30:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:30:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:30:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:30:21] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:30:24] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:30:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:31:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:31:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:31:20] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:31:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:31:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:31:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:32:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:32:31] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:32:44] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:32:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:33:04] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:33:04] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:33:09] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:33:09] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:33:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:33:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:34:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:34:00] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:34:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:34:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:34:14] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:34:14] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:34:19] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:34:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:34:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:34:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:34:58] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:34:58] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:34:58] code 404, message File not found
+192.168.0.85 - - [09/May/2024 21:34:58] "GET /duckduckgo.com HTTP/1.1" 404 -
+192.168.0.85 - - [09/May/2024 21:35:24] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:35:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:35:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:35:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:35:36] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:35:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:05] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:36:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:36:07] code 404, message File not found
+127.0.0.1 - - [09/May/2024 21:36:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.85 - - [09/May/2024 21:36:12] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:36:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:36:13] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:36:13] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:36:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:36:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:36:54] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:36:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:37:03] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:37:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:37:10] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:37:10] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:37:13] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:37:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:37:45] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:37:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:37:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:37:47] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:37:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:37:52] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:38:08] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:38:08] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:38:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:38:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:38:34] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:38:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:39:09] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:39:09] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:39:13] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:39:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:39:24] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:39:24] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:39:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:39:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:40:09] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:40:09] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:40:18] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:40:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:40:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:40:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:41:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:41:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:41:13] code 404, message File not found
+127.0.0.1 - - [09/May/2024 21:41:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2024 21:41:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:41:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:42:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:42:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:42:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:42:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:42:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:42:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:42:51] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:42:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:43:13] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:43:13] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:43:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:43:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:43:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:43:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:43:51] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:43:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:44:19] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:44:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:44:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:44:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:45:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:45:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:45:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:45:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:46:06] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:46:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:46:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:46:28] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:46:30] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:46:30] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:46:54] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:46:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:47:06] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:47:06] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:47:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:47:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:47:41] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:47:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:48:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:48:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:49:37] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:49:37] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:49:44] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:49:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:49:54] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:49:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:49:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:49:56] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:50:12] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:50:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:50:17] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:50:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:50:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:50:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:51:02] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:51:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:51:12] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:51:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:51:15] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:51:15] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:52:04] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:52:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:52:20] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:52:20] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:52:22] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:52:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:26] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:40] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:40] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:53:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:44] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:55] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:53:55] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:54:05] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:54:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:54:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:54:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:54:19] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:54:19] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:54:22] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:54:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:54:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:54:29] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:55:23] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:55:23] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:55:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:55:24] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 21:55:25] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:55:25] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:56:05] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:56:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:56:12] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:56:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:56:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:56:34] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:56:35] code 404, message File not found
+127.0.0.1 - - [09/May/2024 21:56:35] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.0.85 - - [09/May/2024 21:56:38] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:56:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:57:01] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:57:01] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:57:03] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:57:03] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:57:36] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:57:36] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:57:40] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:57:40] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:58:17] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:58:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:58:29] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:58:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:58:39] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:58:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:59:05] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:59:05] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:59:17] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:59:17] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:59:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:59:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 21:59:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 21:59:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:59:57] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 21:59:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:00:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:00:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:00:44] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:00:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:02:02] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:02:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:02:08] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:02:08] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:02:33] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:02:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:02:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:02:49] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:02:53] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:02:54] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:03:12] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:03:12] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:03:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:03:49] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:04:11] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:04:11] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:05:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:05:08] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:05:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:05:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:05:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:05:35] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:05:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:05:56] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:06:34] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:06:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:07:16] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:07:16] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:07:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:07:22] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:07:33] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:07:33] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:07:44] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:07:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:08:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:08:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:08:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:08:18] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:08:20] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:08:20] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:08:31] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:08:31] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:08:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:08:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:08:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:08:51] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:08:53] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:08:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:09:06] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:09:06] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:09:07] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:09:07] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:09:12] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:09:12] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:09:42] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:09:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:09:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:09:47] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:10:07] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:10:07] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:10:10] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:10:10] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:10:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:10:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:10:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:10:50] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:10:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:10:59] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:02] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:02] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:26] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:26] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:34] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:34] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:48] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:11:48] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:12:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:12:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:12:45] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:12:46] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:12:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:12:53] "GET /car-hop/style.css HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:13:04] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:13:04] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:14:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:21] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:14:55] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:55] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:56] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:57] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:57] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2024 22:14:57] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2024 22:14:58] "GET /car-hop/style.css HTTP/1.1" 304 -
+192.168.0.85 - - [09/May/2024 22:24:57] "GET / HTTP/1.1" 200 -
+192.168.0.85 - - [09/May/2024 22:24:57] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:29:36] code 400, message Bad request version ('¡×\\'\\x99u¸\\x81\\x00"\\x13\\x01\\x13\\x03\\x13\\x02À+À/Ì©Ì¨À,À0À')
+127.0.0.1 - - [10/May/2024 11:29:36] "\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03pn\x0cÿøJwÁ-hQÐa\x8e?\x09s\x91µÏ&Ä\x0dC¡\x946PrÜCÉ Ê8DC;\x85ü½êR£sÔb¡ª\x1d®c2X\x1c)l\x0d¡×'\x99u¸\x81\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À" 400 -
+127.0.0.1 - - [10/May/2024 11:29:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /car-hop/img/location.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /car-hop/img/car-size.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:29:42] code 404, message File not found
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49364)
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /car-hop/img/hbg.jpg HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/server.py", line 731, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 676, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/server.py", line 733, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.12/http/server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:29:42] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49376)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49384)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [10/May/2024 11:30:22] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:30:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:30:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:30:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:30:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:30:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:31:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] code 404, message File not found
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/img/location.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/img/car-size.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/img/hbg.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/fonts/Aeronaves.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /car-hop/fonts/PlayfairDisplay-Black.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:29] code 404, message File not found
+127.0.0.1 - - [10/May/2024 11:31:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2024 11:31:35] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:31:35] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:31:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:31:42] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:32:15] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:15] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:32:44] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:44] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:32:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:48] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:49] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:49] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:49] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:49] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:50] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:51] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:52] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:54] "GET /car-hop/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:32:54] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:33:58] code 404, message File not found
+127.0.0.1 - - [10/May/2024 11:33:58] "GET /duckduckgo.com HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2024 11:34:41] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:34:41] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:35:39] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:35:39] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:35:45] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:35:45] "GET /car-hop/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2024 11:38:28] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2024 11:38:28] "GET /car-hop/style.css HTTP/1.1" 304 -
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+
+Keyboard interrupt received, exiting.
