@@ -29,6 +29,7 @@ set helplang=en
 set incsearch
 set laststatus=2
 set ruler
+set runtimepath=~/.vim,~/.vim/pack/plugins/start/vim-live-server,/usr/share/vim/vimfiles,/usr/share/vim/vim91,/usr/share/vim/vimfiles/after,~/.vim/after
 set shiftwidth=4
 set showcmd
 set statusline=%<%f\ %h%w%m%r%=%-14.(%l,%c%V%)\ %P
@@ -49,14 +50,20 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +24 index.html
-badd +58 style.css
+badd +4 index.html
+badd +72 style.css
 badd +75 ~/code/JavaScript/buckshot/style.css
 badd +48 ~/code/JavaScript/buckshot/script.js
+badd +1 cars
+badd +25 cars.html
+badd +12 cars.css
+badd +83 cars.js
+badd +149 global.css
+badd +1 cars.
 argglobal
 %argdel
 $argadd index.html
-edit index.html
+edit cars.html
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -65,7 +72,10 @@ split
 1wincmd k
 wincmd _ | wincmd |
 vsplit
-1wincmd h
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
 wincmd w
 wincmd w
 let &splitbelow = s:save_splitbelow
@@ -78,11 +88,14 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe '1resize ' . ((&lines * 37 + 25) / 51)
-exe 'vert 1resize ' . ((&columns * 90 + 91) / 182)
+exe 'vert 1resize ' . ((&columns * 60 + 91) / 182)
 exe '2resize ' . ((&lines * 37 + 25) / 51)
-exe 'vert 2resize ' . ((&columns * 91 + 91) / 182)
-exe '3resize ' . ((&lines * 11 + 25) / 51)
+exe 'vert 2resize ' . ((&columns * 50 + 91) / 182)
+exe '3resize ' . ((&lines * 37 + 25) / 51)
+exe 'vert 3resize ' . ((&columns * 70 + 91) / 182)
+exe '4resize ' . ((&lines * 11 + 25) / 51)
 argglobal
+balt cars.
 setlocal keymap=
 setlocal noarabic
 setlocal autoindent
@@ -216,17 +229,19 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
+15,15fold
+36,36fold
 let &fdl = &fdl
-let s:l = 28 - ((24 * winheight(0) + 18) / 37)
+let s:l = 9 - ((8 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 28
-normal! 039|
+keepjumps 9
+normal! 031|
 wincmd w
 argglobal
-if bufexists(fnamemodify("style.css", ":p")) | buffer style.css | else | edit style.css | endif
-balt index.html
+if bufexists(fnamemodify("cars.css", ":p")) | buffer cars.css | else | edit cars.css | endif
+balt cars.html
 setlocal keymap=
 setlocal noarabic
 setlocal autoindent
@@ -361,11 +376,155 @@ setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 76 - ((18 * winheight(0) + 18) / 37)
+let s:l = 3 - ((2 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 76
+keepjumps 3
+normal! 0
+wincmd w
+argglobal
+if bufexists(fnamemodify("cars.js", ":p")) | buffer cars.js | else | edit cars.js | endif
+balt style.css
+setlocal keymap=
+setlocal noarabic
+setlocal autoindent
+setlocal backupcopy=
+setlocal balloonexpr=
+setlocal nobinary
+setlocal nobreakindent
+setlocal breakindentopt=
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal nocindent
+setlocal cinkeys=0{,0},0),0],:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinscopedecls=public,protected,private
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,://
+setlocal commentstring=//%s
+setlocal complete=.,w,b,u,t,i
+setlocal completefunc=
+setlocal concealcursor=
+setlocal conceallevel=0
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal nocursorline
+setlocal cursorlineopt=both
+setlocal define=\\(^\\s*(*async\\s\\+function\\|(*function\\)\\|^\\s*\\(\\*\\|static\\|async\\|get\\|set\\|\\i\\+\\.\\)\\|^\\s*\\(\\ze\\i\\+\\)\\(([^)]*).*{$\\|\\s*[:=,]\\)\\|^\\s*\\(export\\s\\+\\|export\\s\\+default\\s\\+\\)*\\(var\\|let\\|const\\|function\\|class\\)\\|\\<as\\>
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal noexpandtab
+if &filetype != 'javascript'
+setlocal filetype=javascript
+endif
+setlocal fillchars=
+setlocal fixendofline
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=0
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=manual
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal formatoptions=croql
+setlocal formatprg=
+setlocal grepprg=
+setlocal iminsert=0
+setlocal imsearch=-1
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=
+setlocal indentkeys=0{,0},0),0],:,0#,!^F,o,O,e
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255
+setlocal keywordprg=
+setlocal nolinebreak
+setlocal nolisp
+setlocal lispoptions=
+setlocal lispwords=
+setlocal nolist
+setlocal listchars=
+setlocal makeencoding=
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=bin,octal,hex
+set number
+setlocal number
+setlocal numberwidth=4
+setlocal omnifunc=javascriptcomplete#CompleteJS
+setlocal path=.,,
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+set relativenumber
+setlocal relativenumber
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal scrolloff=-1
+setlocal shiftwidth=4
+setlocal noshortname
+setlocal showbreak=
+setlocal sidescrolloff=-1
+setlocal signcolumn=auto
+setlocal nosmartindent
+setlocal nosmoothscroll
+setlocal softtabstop=0
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal spelloptions=
+setlocal statusline=
+setlocal suffixesadd=.js,.jsx,.es,.es6,.cjs,.mjs,.jsm,.vue,.json
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'javascript'
+setlocal syntax=javascript
+endif
+setlocal tabstop=4
+setlocal tagcase=
+setlocal tagfunc=
+setlocal tags=
+setlocal termwinkey=
+setlocal termwinscroll=10000
+setlocal termwinsize=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal thesaurusfunc=
+setlocal noundofile
+setlocal undolevels=-123456
+setlocal varsofttabstop=
+setlocal vartabstop=
+setlocal virtualedit=
+setlocal wincolor=
+setlocal nowinfixbuf
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal wrap
+setlocal wrapmargin=0
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 64 - ((23 * winheight(0) + 18) / 37)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 64
 normal! 013|
 wincmd w
 argglobal
@@ -513,10 +672,12 @@ normal! 0
 wincmd w
 3wincmd w
 exe '1resize ' . ((&lines * 37 + 25) / 51)
-exe 'vert 1resize ' . ((&columns * 90 + 91) / 182)
+exe 'vert 1resize ' . ((&columns * 60 + 91) / 182)
 exe '2resize ' . ((&lines * 37 + 25) / 51)
-exe 'vert 2resize ' . ((&columns * 91 + 91) / 182)
-exe '3resize ' . ((&lines * 11 + 25) / 51)
+exe 'vert 2resize ' . ((&columns * 50 + 91) / 182)
+exe '3resize ' . ((&lines * 37 + 25) / 51)
+exe 'vert 3resize ' . ((&columns * 70 + 91) / 182)
+exe '4resize ' . ((&lines * 11 + 25) / 51)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
   silent exe 'bwipe ' . s:wipebuf

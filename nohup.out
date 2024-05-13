@@ -2921,3 +2921,22 @@ BrokenPipeError: [Errno 32] Broken pipe
 Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 
 Keyboard interrupt received, exiting.
+[32mServing "/home/rec/code/JavaScript/politik/car-hop" at http://127.0.0.1:80[39m
+[36mReady for changes[39m
+[36mChange detected[39m /home/rec/code/JavaScript/politik/car-hop/nohup.out
+[0mGET /car-hop/global.css [33m404[0m 2.513 ms - 157[0m
+[36mChange detected[39m /home/rec/code/JavaScript/politik/car-hop/nohup.out
+[0mGET /car-hop/style.css [33m404[0m 2.796 ms - 156[0m
+[0mGET /car-hop/img/location.jpg [33m404[0m 2.325 ms - 163[0m
+[0mGET /car-hop/img/car-size.jpg [33m404[0m 2.359 ms - 163[0m
+[0mGET /car-hop/img/price.jpg [33m404[0m 3.141 ms - 160[0m
+[0mGET /car-hop/img/car-standing.jpg [33m404[0m 4.266 ms - 167[0m
+[0mGET /car-hop/img/phone.svg [33m404[0m 3.409 ms - 160[0m
+[0mGET /car-hop/img/location.svg [33m404[0m 3.171 ms - 163[0m
+[0mGET /car-hop/img/email.svg [33m404[0m 1.917 ms - 160[0m
+[0mGET /car-hop/cars.html [33m404[0m 0.410 ms - 156[0m
+[36mChange detected[39m /home/rec/code/JavaScript/politik/car-hop/nohup.out
+[0mGET /car-hop/global.css [33m404[0m 0.942 ms - 157[0m
+[36mChange detected[39m /home/rec/code/JavaScript/politik/car-hop/nohup.out
+[0mGET /car-hop/style.css [33m404[0m 1.082 ms - 156[0m
+[0mGET /car-hop/img/car-size.jpg [33m404[0m 0.659 ms - 163[0m
