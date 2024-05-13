@@ -89,10 +89,6 @@ async function load() {
 		car.object.position.set(0, 0, 0);
 		switch (i) {
 			case 1:
-				car.camera.position.z += 2;
-				car.camera.position.y += .5;
-				break;
-			case 2:
 				light.intensity = 2;
 				car.camera.position.z += 1;
 				car.camera.position.y -= 0.5;
