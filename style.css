@@ -42,7 +42,6 @@
 .group {
 	position: relative;
 	display: inline-flex;
-	flex-wrap: wrap;
 	flex-direction: row;
 	gap: 5vw;
 	padding: 0 1em;
