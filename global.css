@@ -13,10 +13,9 @@
 }
 
 @font-face {
-	font-family: "PlayfairDisplay";
+	font-family: "PlayfairDisplay-Black";
 	font-weight: black;
-	font-style: italic;
-	src: url("/car-hop/fonts/PlayfairDisplay-BlackItalic.ttf");
+	src: url("/car-hop/fonts/PlayfairDisplay-Black.ttf");
 }
 
 @font-face {
