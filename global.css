@@ -6,13 +6,6 @@
 }
 
 @font-face {
-	font-family: "PlayfairDisplay";
-	font-weight: bold;
-	font-style: italic;
-	src: url("/car-hop/fonts/PlayfairDisplay-BoldItalic.ttf");
-}
-
-@font-face {
 	font-family: "PlayfairDisplay-Black";
 	font-weight: black;
 	src: url("/car-hop/fonts/PlayfairDisplay-Black.ttf");
@@ -23,13 +16,6 @@
 	font-weight: bold;
 	src: url("/car-hop/fonts/PlayfairDisplay-Bold.ttf");
 }
-
-@font-face {
-	font-family: "Aeronaves";
-	font-weight: normal;
-	src: url("/car-hop/fonts/Aeronaves.ttf");
-}
-
 
 :root {
 	--brand: #c53f67;
