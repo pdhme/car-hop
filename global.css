@@ -17,6 +17,11 @@
 	src: url("/car-hop/fonts/PlayfairDisplay-Bold.ttf");
 }
 
+@font-face {
+	font-family: "Aeronaves";
+	src: url("/car-hop/fonts/Aeronaves.ttf");
+}
+
 :root {
 	--brand: #c53f67;
 	--text: #fad538;
