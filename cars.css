@@ -1,3 +1,10 @@
+#heading {
+	margin-top: 5rem;
+	text-align: center;
+	font-family: "PlayfairDisplay-Bold";
+	font-weight: bold;
+}
+
 #selection {
 	display: flex;
 	flex-wrap: wrap;

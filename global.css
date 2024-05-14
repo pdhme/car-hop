@@ -20,9 +20,9 @@
 }
 
 @font-face {
-	font-family: "PlayfairDisplay";
-	font-weight: black;
-	src: url("/car-hop/fonts/PlayfairDisplay-Black.ttf");
+	font-family: "PlayfairDisplay-Bold";
+	font-weight: bold;
+	src: url("/car-hop/fonts/PlayfairDisplay-Bold.ttf");
 }
 
 @font-face {
